@@ -40,7 +40,6 @@ export default{
   },
   methods: {
     onClick: function() {
-      console.log(this.pickeda);
       let self = this;
       axios({
           url: 'https://run.mocky.io/v3/90e1d920-afca-4101-8a97-9097310d7e8a',
