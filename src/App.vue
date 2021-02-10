@@ -1,14 +1,15 @@
 <template>
-  <router-view />
+  <!-- <router-view /> -->
+  <Search />
 </template>
 
 <script>
-// import Search from './components/Search.vue'
+import Search from './components/Search.vue'
 
 export default {
   name: 'App',
   components: {
-    // Search
+    Search
   }
 }
 </script>

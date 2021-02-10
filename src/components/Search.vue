@@ -47,7 +47,7 @@ export default{
       })
       .then((res) =>{
         self.list = res.data;
-        // console.log(self.list);
+        console.log(self.list);
       })
     }
   }
