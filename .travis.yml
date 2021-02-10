@@ -13,6 +13,7 @@ deploy:
   domain: https://ahmedamged.github.io/task
   skip_cleanup: true
   email: false
+  local_dir: dist
   github-token: $GITHUB_TOKEN
   on:
     branch: master
