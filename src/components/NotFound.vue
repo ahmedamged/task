@@ -5,7 +5,7 @@
         </div>
         <div class="w-full md:w-2/5">
         </div>
-        <div class="w-full md:w-1/5 flex">
+        <div class="w-full md:w-2/5">
         </div>
     </div>
     <div class="w-64 md:w-96 h-96 md:h-full bg-blue-200 bg-opacity-30 absolute -top-64 md:-top-96 right-20 md:right-32 rounded-full pointer-events-none -rotate-45 transform"></div>
