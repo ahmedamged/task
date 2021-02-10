@@ -2,12 +2,18 @@ dist: trusty
 language: node_js
 node_js:
 - "stable"
+cache: npm
 before_script:
 - npm install
 script:
+- npm test
 - npm run build
 deploy:
   provider: pages
   project: ./dist/
-  domain: https://ahmedamged.github.io/task 
+  domain: https://ahmedamged.github.io/task
   skip_cleanup: true
+  email: false
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: gh-pages
