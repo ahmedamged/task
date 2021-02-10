@@ -1,7 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-import HotelListing from "../components/HotelListing.vue";
 import Search from "../components/Search.vue";
-import NotFound from "../components/NotFound.vue";
 
 const routes = [
   {
@@ -10,17 +8,11 @@ const routes = [
     component: Search,
     props: true
   },
-  {
-    path: "/hotel-listing",
-    name: "HotelListing",
-    component: HotelListing,
-    props: true
-  },
-  {
-    path: "/:path(.*)",
-    name: "NotFound",
-    component: NotFound,
-  },
+  // {
+  //   path: "/:path(.*)",
+  //   name: "NotFound",
+  //   component: NotFound,
+  // },
 ];
 
 const router = createRouter({
