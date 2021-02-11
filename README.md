@@ -1,4 +1,6 @@
-# task
+# Crevisoft task
+
+[![Build Status](https://travis-ci.com/ahmedamged/task.svg?branch=master)](https://travis-ci.com/ahmedamged/task)
 
 ## Project setup
 ```
