@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/ahmedamged/task.svg?branch=master)](https://travis-ci.com/ahmedamged/task)
 
+[![DeepSource](https://deepsource.io/gh/ahmedamged/task.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ahmedamged/task/?ref=repository-badge)
+
 ## Project setup
 ```
 npm install
